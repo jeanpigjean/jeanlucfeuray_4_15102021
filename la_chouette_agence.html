@@ -37,12 +37,12 @@
 	<script src="js/jquery-2.1.0.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/blocs.js"></script>
-	<script src="js/jquery.touchSwipe.js" defer></script>
+	<script src="js/jquery.touchSwipe.js"></script>
 	<script src="js/gmaps.js"></script>
 	
 
 <!-- 8 balise vide <title>.</title> à remplir par bon mot clés-->
-    <title>.</title>
+    <title>La Chouette agence | experts | site web | conception | création | design | seo | optimisation</title>
 
     
 <!-- Analytics google search acces ajout n°??-->
@@ -66,14 +66,17 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="dessin d'une chouette et texte la chouette agence" height="40" /></a>
+				<!-- <div class="keywords" style="color:#cccccc;font-size:1px;"> devient <div class="keywords"> -->
+				<!-- <div class="keywords">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="dessin d'une chouette et texte la chouette agence" /></a>
 				<!-- 10 balise alt mal utiliser pas fait pour pub mais pour decrire l'image 
-				alt="paris web design logo agence web meilleure agence" height="40" />
+				alt="paris web design logo agence web meilleure agence" height="40" /> supprimer height
 				et pas de balise style dans html
+				rectifier + creer class keywords
 				-->
 
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				<!-- <div class="keywords" style="color:#cccccc;font-size:1px;"> devient <div class="keywords"> -->
+				<!--<div class="keywords">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> -->
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -120,7 +123,7 @@
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<!-- new -->
-				<p>La chouette agence est une agence de web design qui aide<br> les entreprises à devenir attractives et visibles sur Internet.
+				<p class="block-texte-premier">La chouette agence est une agence de web design qui aide<br> les entreprises à devenir attractives et visibles sur Internet.
 				</p>
 			<!-- <img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" /> -->
 			<!-- pas d'image texte-->
@@ -135,7 +138,7 @@
 				<h3 class="mg-md text-center">
 					Web design
 				</h3>
-				<p class="text-center ">
+				<p class="text-center block-texte-premier">
 					Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
 				</p>
 			</div>
@@ -146,7 +149,7 @@
 				<h3 class="mg-md text-center">
 					&nbsp;Stratégie
 				</h3>
-				<p class="text-center ">
+				<p class="text-center block-texte-premier">
 					Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
 				</p>
 			</div>
@@ -157,7 +160,7 @@
 				<h3 class="mg-md text-center">
 					Illustrations
 				</h3>
-				<p class="text-center ">
+				<p class="text-center block-texte-premier">
 					Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
 				</p>
 			</div>
@@ -165,12 +168,12 @@
 		<div class="row voffset-lg voffset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 				<!-- -->
-				<p>
+				<p class="block-texte-premier">
 					“La chouette agence est une excellente agence web!
 				Les<br> web designers ont réussi à capturer l'essence de 
 				notre <br>entreprise et à l'intégrer à notre site.Cela nous a
  				aidé à <br>doubler nos ventes en ligne à lyon.”<br>
-				Maxime Guibard,PDG de &Agrave; vos fourchettes
+				"Maxime Guibard,PDG de &Agrave; vos fourchettes"
 				</p>
 				<!-- <img alt="agence web, agence web paris, web design paris, stratégie web" src="img/citation.png" /> -->
 
@@ -185,11 +188,11 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
-				<h2 class="mg-md text-center tc-white">
+				<h2 class="mg-md text-center tc-white"><!-- ajout de la class  ajout-texte-premier pour agrabdir texte -->
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h2>
-				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+				<p class="text-center white" id="ajout-texte-second">
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" id="ajout-texte-trois" href="contact.html">Contactez notre équipe</a><br>
 				</p>
 			</div>
 		</div>
@@ -203,7 +206,7 @@
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<!-- new-->
-				<p>
+				<p class="block-texte-premier">
 					Nous travaillons avec beaucoup de clients,<br>
 					voici nos réalisations.
 				</p>
@@ -217,7 +220,7 @@
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
-				<p class="text-center">
+				<p class="text-center block-texte-premier">
 					Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 				</p>
 			</div>
@@ -226,7 +229,7 @@
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
 				</h3>
-				<p class="text-center">
+				<p class="text-center block-texte-premier">
 					Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 				</p>
 			</div>
@@ -237,7 +240,7 @@
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
-				<p class="text-center">
+				<p class="text-center block-texte-premier">
 					Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
 				</p>
 			</div>
@@ -246,7 +249,7 @@
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
-				<p class="text-center">
+				<p class="text-center block-texte-premier">
 					Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
 				</p>
 			</div>
@@ -256,7 +259,8 @@
 <!-- bloc-4-portfolio END -->
 
 <!-- bloc-5-cta -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+<!-- <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta"> -->
+<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
 			<h2 class="mg-md text-center tc-white">
