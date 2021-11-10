@@ -7,27 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-/* class ajouté */
-p.block-texte-premier {
-    font-size: 18px;
-}
-
-.navbar-brand {
-    height: 40px;
-}
-
-.commentaire {
-font-style: italic;
-}
-
-.ajout-texte-premier {font-size: 18px;}
-#ajout-texte-second {font-size: 18px;}
-#ajout-texte-trois {font-size: 18px;}
-/* fin class ajouté*/
-
-
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -44,8 +23,8 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;/* z-index: 100000; */
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;/* page loader inconnu */
+    z-index: 100000;
+    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -796,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #f5ab89!important;/* color: #F3976C!important; */
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
@@ -843,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
