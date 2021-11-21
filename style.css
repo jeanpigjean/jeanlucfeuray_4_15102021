@@ -7,6 +7,21 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* class ajouter projet p4*/
+.para_modif_image_1 {
+    font-size: 24px;
+}
+
+.page-container {
+ text-align: center;   
+}
+
+
+
+
+
+
+
 a,
 button {
     transition: all .3s ease-in-out;
