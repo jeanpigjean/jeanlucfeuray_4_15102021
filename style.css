@@ -778,17 +778,13 @@ h4 {
     font-weight: 900;
     text-decoration: underline!important;
 }
-/*
-.bgc-white {
-    background-color: #FFFFFF;
-}*/
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C!important;/* color: #F3976C!important;*/
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
