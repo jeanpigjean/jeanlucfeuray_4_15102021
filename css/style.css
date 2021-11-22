@@ -1,42 +1,49 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    /* background: #FFF; */
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
 }
 
 /* class ajouter projet p4*/
 .para_modif_image_1 {
     font-size: 24px;
+/* margin:50px 0px 50px 0px; */ 
+}
+
+#contact {
+    font-size: 22px;
+    cursor: pointer;
 }
 
 
 
-
-
-.page-container {
+/* .page-container {
  text-align: center;   
-}
+} */
 
 
 
 
 
 
-
+/*******************************************
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+********************************/
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
 
+
+/********************************************
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -45,6 +52,8 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+***********************************************/
+
 
 .bloc {
     width: 100%;
@@ -116,7 +125,10 @@ content: "";
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: black;
+    background: #F3976C!important;
+    /*font-size: 20px; #c27956!important  #F3976C*/
+    /*color: rgba(255, 255, 255, .7);*/
 }
 
 .d-bloc button:hover {
@@ -149,7 +161,8 @@ content: "";
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    /*color: rgba(255, 255, 255, .6);*/
+    color:black;
 }
 
 .d-bloc .a-btn:hover,
@@ -232,6 +245,7 @@ content: "";
     border-color: rgba(0, 0, 0, .1);
 }
 
+/*******************************************
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
@@ -249,7 +263,9 @@ content: "";
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
+***********************************/
 
+/************************************
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
@@ -267,6 +283,7 @@ content: "";
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
+****************************************/
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
@@ -383,8 +400,10 @@ content: "";
         position: absolute;
         top: 50%;
         right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+        /* transform: translate(0, -50%); */
+        
+        transform-origin: translate(0, -50%);
+        /* transform-origin :  0  0 ;  /* Propriété standard */
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -485,15 +504,15 @@ button {
     border-radius: 40px;
 }
 
-.btn-clean {
+/* .btn-clean {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
-}
+} */
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 35px!important;
 }
 
 .icon-lg {
@@ -567,8 +586,10 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    /* transform: translateY(-50%); */
+    /* transform-origin: 0 -50%; */
+    transform-origin: translateY(-50%);
+    /* -webkit-transform: translateY(-50%); */
 }
 
 a[data-lightbox]:hover img {
@@ -667,8 +688,9 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 900;
+    /*color: #575757!important;*/
+    color: black;
 }
 
 .container {
@@ -676,7 +698,9 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 45px!important;
+    font-weight: bold;
+    color: white!important;
 }
 
 .hero-bloc-text-sub {
@@ -694,7 +718,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -707,14 +731,32 @@ p {
     font-family: "Open Sans";
 }
 
+
+
+
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: bold;
 }
+
+.bgc-atomic-tangerine {
+    color: #FFFFFF!important;
+    /*font-weight: bold;*/
+}
+
+/*    background: #c27956!important;
+    color: #FFFFFF!important;
+}*/
+.cta-hero:hover {
+    background: #FFFFFF!important;/* background: #c27956!important; */
+    color: black!important;
+}
+
+
 
 .social {
     max-width: 400px;
@@ -753,7 +795,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;/* !important; */
 }
 
 .portfolio-thumb {
@@ -769,8 +811,9 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
+
+/* background-color: rgba(165, 147, 99, 0.7); */
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -779,31 +822,27 @@ h4 {
     text-decoration: underline!important;
 }
 
+/* background-color: #F3976C; */
+
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    color: black!important;
 }
 
-.tc-white {
+/* .tc-white {
     color: #F3976C!important;
-}
+} */
 
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
-}
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
-}
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 22px;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #000000!important;
 }
+
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
@@ -820,11 +859,11 @@ h4 {
 
  
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
+    background-image: url("../img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/bureau_de_travail.webp");
+    background-image: url("../img/bureau_de_travail.webp");
 } 
 
 @media (max-width: 1024px) {
@@ -921,9 +960,9 @@ h4 {
     }
     .site-navigation {
         position: inherit;
-        transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
+        transform-origin: none;
+        -webkit-transform-origin: none;
+        -ms-transform-origin: none;
     }
     .nav > li {
         margin-top: 0;
