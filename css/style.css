@@ -8,15 +8,31 @@ body {
     font-size: 18px;
 }
 
-/* class ajouter projet p4*/
+/* class ajouter projet p4 */
+ /* #c27956     #F3976C */
 .para_modif_image_1 {
     font-size: 24px;
-/* margin:50px 0px 50px 0px; */ 
+ margin:50px 0px 50px 0px;  
 }
 
 #contact {
     font-size: 22px;
     cursor: pointer;
+}
+
+#bouton_envoyer {
+    background: #c27956;
+    color: black;
+}
+
+#bouton_envoyer:hover {
+    background: yellow;
+    color: black;
+}
+
+.hero-bloc-text_new {
+font-size: 45px;
+font-weight: bold;  
 }
 
 
@@ -165,6 +181,8 @@ content: "";
     color:black;
 }
 
+
+/**********************************************
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -181,6 +199,8 @@ content: "";
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
+*****************************************************/
+
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -736,7 +756,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 30px;
@@ -1039,9 +1059,15 @@ h4 {
     .a-block {
         padding: 0 10px;
     }
-    .btn-dwn {
+    
+
+
+     .btn-dwn {
         display: none;
-    }
+}
+
+
+    
     .voffset {
         margin-top: 5px;
     }
