@@ -7,70 +7,38 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-size: 18px;
 }
-
-/* class ajouter projet p4 */
- /* #c27956     #F3976C */
 .para_modif_image_1 {
     font-size: 24px;
- margin:50px 0px 50px 0px;  
+    margin:50px 0px 50px 0px;  
 }
-
 #contact {
     font-size: 22px;
     cursor: pointer;
 }
-
-#bouton_envoyer {
-    background: #c27956;
-    color: black;
-}
-
-#bouton_envoyer:hover {
-    background: yellow;
-    color: black;
-}
-
-.hero-bloc-text_new {
-font-size: 45px;
-font-weight: bold;  
-}
-
-
-
-/* .page-container {
- text-align: center;   
-} */
-
-
-
-
-
-
-/*******************************************
-a,
 button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+    background: none ;
+    color: red ;
+    border-color : red ;
+    border-radius: : 25px ;
+    border:solid black 1px;
 }
-********************************/
+.bouton_envoyer {
+    background: #F3976C;
+    color: black;
+    font-size: 25px;
+}
+.bouton_envoyer:hover {
+    background: #c27956;;
+    color: white;
+}
+.hero-bloc-text_new {
+    font-size: 45px;
+    font-weight: bold;  
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
-
-/********************************************
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
-***********************************************/
-
-
 .bloc {
     width: 100%;
     clear: both;
@@ -82,24 +50,19 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
 }
-
 .bloc-lg {
     padding: 100px 50px;
 }
-
 .bloc-md {
     padding: 50px;
 }
-
 .bloc-sm {
     padding: 20px 50px;
 }
-
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -123,34 +86,16 @@ a:hover {
 .bg-t-edge {
     background: top no-repeat;
 }
-
-/*   
-.bloc-bg-texture{
-content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}*/
-
-
 .b-parallax {
     background-attachment: fixed;
 }
-
 .d-bloc {
     color: black;
     background: #F3976C!important;
-    /*font-size: 20px; #c27956!important  #F3976C*/
-    /*color: rgba(255, 255, 255, .7);*/
 }
-
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
-
 .d-bloc .icon-round,
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
@@ -158,11 +103,9 @@ content: "";
 .d-bloc .icon-semi-rounded-b {
     border-color: rgba(255, 255, 255, .9);
 }
-
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
-
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -177,30 +120,8 @@ content: "";
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    /*color: rgba(255, 255, 255, .6);*/
     color:black;
 }
-
-
-/**********************************************
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
-}
-*****************************************************/
-
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -264,46 +185,6 @@ content: "";
 .l-bloc .divider-h span {
     border-color: rgba(0, 0, 0, .1);
 }
-
-/*******************************************
-.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
-}
-***********************************/
-
-/************************************
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
-}
-****************************************/
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
@@ -420,10 +301,7 @@ content: "";
         position: absolute;
         top: 50%;
         right: 20px;
-        /* transform: translate(0, -50%); */
-        
         transform-origin: translate(0, -50%);
-        /* transform-origin :  0  0 ;  /* Propriété standard */
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -489,13 +367,11 @@ nav .caret {
     margin: 6px -5px 0 0!important;
     float: right;
 }
-/**************************/
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 22px;
 }
-/*******************************/
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -523,13 +399,6 @@ button {
 .btn-rd {
     border-radius: 40px;
 }
-
-/* .btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
-} */
 
 .icon-md {
     font-size: 35px!important;
@@ -606,12 +475,8 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    /* transform: translateY(-50%); */
-    /* transform-origin: 0 -50%; */
     transform-origin: translateY(-50%);
-    /* -webkit-transform: translateY(-50%); */
 }
-
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
@@ -709,7 +574,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 900;
-    /*color: #575757!important;*/
     color: black;
 }
 
@@ -750,51 +614,37 @@ p {
     font-size: 20px;
     font-family: "Open Sans";
 }
-
-
-
-
 .cta-hero {
     margin-top: 22px;
-    color: #000000!important;
+    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .bgc-atomic-tangerine {
     color: #FFFFFF!important;
-    /*font-weight: bold;*/
 }
 
-/*    background: #c27956!important;
-    color: #FFFFFF!important;
-}*/
 .cta-hero:hover {
-    background: #FFFFFF!important;/* background: #c27956!important; */
+    background: #FFFFFF!important;
     color: black!important;
 }
-
-
-
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-/***************************************/
 h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
-/**************************************************/
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
-
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -815,7 +665,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF;/* !important; */
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -830,9 +680,6 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
-
-/* background-color: rgba(165, 147, 99, 0.7); */
 .black-background {
     padding: 40px 40px 40px 40px;
 }
@@ -842,17 +689,9 @@ h4 {
     text-decoration: underline!important;
 }
 
-/* background-color: #F3976C; */
-
 .bgc-atomic-tangerine {
     color: black!important;
 }
-
-/* .tc-white {
-    color: #F3976C!important;
-} */
-
-
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -877,7 +716,6 @@ h4 {
     border-color: #364577!important;
 }
 
- 
 .bg-banniere {
     background-image: url("../img/la-chouette-agence-banniere.webp");
 }
@@ -1060,14 +898,10 @@ h4 {
         padding: 0 10px;
     }
     
-
-
-     .btn-dwn {
+    .btn-dwn {
         display: none;
-}
+    }
 
-
-    
     .voffset {
         margin-top: 5px;
     }
