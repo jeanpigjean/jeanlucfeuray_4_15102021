@@ -26,10 +26,13 @@ button {
     background: #F3976C;
     color: black;
     font-size: 25px;
+    border-radius: 25px;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
 }
 .bouton_envoyer:hover {
     background: #c27956;;
-    color: white;
+    color: white!important;
 }
 .hero-bloc-text_new {
     font-size: 45px;
@@ -766,8 +769,8 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
-    #hero-bloc {
+    
+    .page-container, #hero-bloc {
         overflow-x: hidden;
         position: relative;
     }
