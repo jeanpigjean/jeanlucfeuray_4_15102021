@@ -16,16 +16,15 @@ Optimisation un site web existant :
 
 ### La chouette agence
 
-![Image text](img/logo.png)
+![Image text](img/logo.webp)
 >Le site web apparait à la deuxieme page des moteurs de recherche. Il faut améliorer son referencement. 
 
 ## Installation
-Pas d'installation necessaire.  
-[Ici](), vous trouverez le site web avant d'avoir était optimisé.  
-Et [sur ce lien](), vous trouverez le site web optimisé.
+Site web optimisé. 
+ [https://jeanpigjean.github.io/jeanlucfeuray_4_15102021/]
 
 ## Éléments fournis
-Le [site web]() qui a besoin d'un meilleur referencement.
+Le site web qui a besoin d'un meilleur referencement.
 
 ##  Cahier des charges
 _Rapport d'analyse SEO du site web_
@@ -39,13 +38,13 @@ _Outils utilisés_
 ## Notes
 L'IDE que j'ai utilisé est *Visual Studio Code*.  
 Le site passe le **W3C** pour HTML et CSS.  
-Utilisation de [Wave](https://wave.webaim.org/) pour vérifier l'accessibilité.  
-Utilisation de [GtMetrix](https://gtmetrix.com/) pour vérifier l'optimisation.
+Utilisation de [Lighthouse] google chrome.
 
 ## Évaluation
 :Mr ou Mme: Ce projet non validé pour le moment .
 
 ## Contact
-* [Pas de contact]()
+Pas de contact.
 
- 
+## Date
+* Mis à jour : Le jeudi 25 novembre 2021 .
