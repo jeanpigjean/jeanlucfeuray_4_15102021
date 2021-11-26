@@ -6,21 +6,15 @@ body{margin:0;padding:0;overflow-x:hidden;font-size:18px}.para_modif_image_1{fon
 .navbar-nav > li > a {
 padding-top: 0px!important; 
 padding-bottom: 0px!important; 
-/* line-height: 0px!important;*/
 }
-
 ul {
 padding: 15px 0px 0px 0px!important;
 margin: 0px 0px 0px 0px!important;
-/* border:solid red 4px!important;	*/
 }
-
-
 .contact {
-background: rgba(243, 151, 108,1);   /* rgba(243, 151, 108,1);     #c27956;/* #F3976C; */
+background: rgba(243, 151, 108,1);
 filter: brightness(120%);
 }
-
 .majuscule {
 text-transform: uppercase;	
 }
